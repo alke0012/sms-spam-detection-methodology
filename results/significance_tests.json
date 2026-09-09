@@ -1,0 +1,65 @@
+{
+  "reference_config": "SVM__TFIDF_unigram",
+  "comparisons": {
+    "NaiveBayes__BoW_unigram": {
+      "statistic": 6.0,
+      "p_value": 0.02734375
+    },
+    "SVM__BoW_unigram": {
+      "statistic": 20.0,
+      "p_value": 0.4921875
+    },
+    "LogisticRegression__BoW_unigram": {
+      "statistic": 8.0,
+      "p_value": 0.048828125
+    },
+    "RandomForest__BoW_unigram": {
+      "statistic": 11.0,
+      "p_value": 0.10546875
+    },
+    "NaiveBayes__BoW_uni+bi": {
+      "statistic": 4.0,
+      "p_value": 0.013671875
+    },
+    "SVM__BoW_uni+bi": {
+      "statistic": 18.0,
+      "p_value": 0.375
+    },
+    "LogisticRegression__BoW_uni+bi": {
+      "statistic": 8.0,
+      "p_value": 0.08583095844428565
+    },
+    "RandomForest__BoW_uni+bi": {
+      "statistic": 6.0,
+      "p_value": 0.02734375
+    },
+    "NaiveBayes__TFIDF_unigram": {
+      "statistic": 11.0,
+      "p_value": 0.10546875
+    },
+    "LogisticRegression__TFIDF_unigram": {
+      "statistic": 17.0,
+      "p_value": 0.5146697234497355
+    },
+    "RandomForest__TFIDF_unigram": {
+      "statistic": 18.0,
+      "p_value": 0.375
+    },
+    "NaiveBayes__TFIDF_uni+bi": {
+      "statistic": 6.0,
+      "p_value": 0.02734375
+    },
+    "SVM__TFIDF_uni+bi": {
+      "statistic": 0.0,
+      "p_value": 0.007685794055213263
+    },
+    "LogisticRegression__TFIDF_uni+bi": {
+      "statistic": 14.5,
+      "p_value": 0.232421875
+    },
+    "RandomForest__TFIDF_uni+bi": {
+      "statistic": 9.0,
+      "p_value": 0.064453125
+    }
+  }
+}
